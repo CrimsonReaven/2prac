@@ -9,7 +9,7 @@ namespace Calculator.Functions
     internal class FindFirstOperatorFunc
     {
         public static int FindFirstOperator(string input)
-        {
+        {     // 2конфликт
             char[] operators = new char[] { '+', '-', '*', '/', '%', '^' };
 
             for (int i = 0; i < input.Length; i++)
